@@ -12,7 +12,7 @@ spec:
         app: internal
     spec:
       containers:
-      - name: internal
+      - name: internal-contianer
         image: beachcoder/internal:3
         resources:
           requests:
