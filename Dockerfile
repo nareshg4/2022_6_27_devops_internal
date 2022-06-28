@@ -12,6 +12,6 @@ WORKDIR /app
 
 COPY --from=tools /app .
 
-COPY . .
+COPY server.js .
 
 CMD ["node", "server.js"]
